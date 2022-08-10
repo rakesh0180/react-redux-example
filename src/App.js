@@ -1,5 +1,11 @@
-function App() {
-  return <h1>hi</h1>;
-}
+import PostsContainer from "./component/PostsContainer";
 
+function App() {
+  return (
+    <div>
+      <h1>Hi</h1>
+      {/* <PostsContainer /> */}
+    </div>
+  );
+}
 export default App;
